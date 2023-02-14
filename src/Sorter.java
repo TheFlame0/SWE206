@@ -34,5 +34,9 @@ public class Sorter {
             }
             return array;
         }
+
+        public static int[] sort(int[] array) {
+            return insertionSort(array);
+        }
     
 }
